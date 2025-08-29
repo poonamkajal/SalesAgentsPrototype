@@ -74,7 +74,7 @@ st.divider()
 with st.form("sales_form"):
     company_name = st.text_input("Company Name")
     product_name = st.text_input("Product Name")
-    company_url = st.text_input("Target Company URL")
+    company_url = st.text_input("Company URL")
     competitors = st.text_area("Competitors (comma-separated URLs)")
     target_customer = st.text_input("Target Customer")
     submit = st.form_submit_button("Generate Insights")
